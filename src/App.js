@@ -1,23 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Eighthpage from './component/eightpage/Eighthpage';
+import Fifthpage from './component/fifthpage/Fifthpage';
+import Firstpage from './component/first/Firstpage';
+import Fourthpage from './component/fouthpage/Fourthpage';
+import Ninthpage from './component/ninthpage/Ninthpage';
+import Secondpage from './component/secondpage/Secondpage';
+import Seventhpage from './component/seventhpage/Seventhpage';
+import Sixthpage from './component/sixthpage/Sixthpage';
+import Tenthpage from './component/tenthpage/Tenthpage';
+import Thirdpage from './component/thirdpage/Thirdpage';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Firstpage/>
+      <Secondpage/>
+      <Thirdpage/>
+      <Fourthpage/>
+      <Fifthpage/>
+      <Sixthpage/>
+      <Seventhpage/>
+      <Eighthpage/>
+      <Ninthpage/>
+      <Tenthpage/>
     </div>
   );
 }

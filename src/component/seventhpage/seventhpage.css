@@ -1,0 +1,50 @@
+.seventh_page_main{
+    height: 600px;
+    width: 100%;
+    background-image: url(https://web-images.credcdn.in/_next/assets/images/home-page/trust-bg.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-div{
+    height: 70%;
+    width: 80%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.left-div{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+}
+.right-div{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    gap: 20px;
+    padding: 0 100px;
+}
+
+.divBlank{
+    height: 60%;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.divUsed{
+    height: 40%;
+    width: 100%;
+    /* border: 1px solid blue; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
