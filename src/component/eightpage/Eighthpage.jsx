@@ -39,13 +39,20 @@ const Eighthpage = () => {
         </div>
         <div className="storeDiv">
           <div className="buttonCon">
-            <button>Download the app</button>
+            <button className='dwnldbtn'>Download the app</button>
           </div>
           <div className="buttonCon">
-          <button>Download the app</button>
+          <button className='dwnldbtn'>Download the app</button>
           </div>
         </div>
-        <div className="paraDiv"></div>
+        <div className="paraDiv">
+        <p>"this is a great app loaded with functionality and simplicity yet elegant and intuitive. a must have for the</p> 
+        <p>plastic money users. keeps me in financial discipline and helps me take the billing and payment worries </p>
+        <p> out of my mind"</p>
+        <br />
+        <br />
+        <p>ranesh bhattacharya</p>
+        </div>
       </div>
     </div>
   )

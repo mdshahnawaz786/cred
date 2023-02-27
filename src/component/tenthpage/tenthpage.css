@@ -1,5 +1,64 @@
 .tenth-page-cont{
-    height: 700px;
+    height: 500px;
     width: 100%;
     background-color: black;
+    padding: 50px 100px;
+}
+
+.finalmaincont{
+    height: 400px;
+    width: 90%;
+    /* border: 1px solid yellow; */
+    display: flex;
+}
+
+.leftContainer{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.imgimgfi{
+    height: 60px;
+    width: 200px;
+}
+
+.img2fi{
+    height: 60px;
+    width: 400px;
+}
+
+.dark{
+    color: #8d8d8c;
+    font-size: 10px;
+}
+
+.finalrightdiv{
+    height: 100%;
+    width: 63%;
+    /* border: 1px solid white; */
+    display: flex;
+    color: white;
+    flex-direction: column;
+}
+
+.leftlastdivContainer{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid red; */
+    display: flex;
+    color: white;
+    /* flex-direction: column; */
+}
+
+.lastDiv{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid blue; */
+    display: flex;
+    color: white;
+    flex-direction: column;
 }

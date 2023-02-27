@@ -1,5 +1,41 @@
 .ninthpage-main{
-    height: 900px;
+    height: 800px;
     width: 100%;
     background-color: rgb(36, 36, 36);
+    padding: 50px 100px;
+}
+
+.main-content-div{
+    height: 700px;
+    width: 90%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.ninthpage-main .main-content-div p {
+    font-size: 10px;
+    color: #8d8d8c;
+}
+
+.lowertext{
+    height: 200px;
+    width: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    color: white;
+    
+}
+.oneDivCal{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid yellow; */
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 5px;
+
 }
