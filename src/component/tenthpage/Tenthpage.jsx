@@ -22,7 +22,7 @@ const Tenthpage = () => {
           <div className="finalrightdiv">
             <h5>products</h5><br />
             <p className='dark'>CRED pay</p><br />
-            <p className='dark'>redit score check</p><br /><br /><br /><br />
+            <p className='dark'>credit score check</p><br /><br /><br /><br />
             <h5>Resources</h5><br />
             <p className='dark'>article</p><br />
             <p className='dark'>blog</p><br />
